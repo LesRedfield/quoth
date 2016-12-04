@@ -13,3 +13,96 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+ 	font-family: "adelle-sans", Helvetica, Arial, sans-serif;
+ 	background-color: #fbfbfb;
+}
+
+/* Clearfix */
+.group:after {
+   content: "";
+   display: block;
+   clear: both;
+}
+
+h1, h2, h3 {
+ 	color: #00a4a5;
+ 	display: flex;
+	justify-content: center;
+ 	margin-top: 35px;
+}
+
+h3 {
+ 	margin-bottom: 30px;
+}
+
+.error, #price-container {
+ 	display: flex;
+	justify-content: center;
+ 	color: red;
+ 	font-weight: bold;
+}
+
+#price-container {
+ 	font-size: 30px;
+}
+
+#form-container {
+ 	width: 40%;
+ 	min-width: 400px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	margin-top: 20px;
+ 	margin-bottom: 80px;
+ 	position: relative;
+}
+
+.field {
+ 	border: 1px solid #ccc;
+  border-radius: .375rem;
+  background-color: #fff;
+ 	position: relative;
+ 	margin-bottom: 25px;
+}
+
+.label {
+ 	padding: .75rem 1.5rem;
+  color: #000;
+  border-bottom: 1px solid #ccc;
+  font-weight: 600;
+ 	font-size: 1rem;
+  line-height: 1.5rem;
+ 	position: relative;
+}
+
+input[type="text"], input[type="number"], .boxes, select {
+ 	width: 100%;
+ 	background-color: #fff;
+  box-sizing: border-box;
+ 	box-shadow: none;
+ 	border: 0 solid #ccc;
+ 	border-radius: .375rem;
+ 	font-size: 1.1875rem;
+  line-height: 1.875rem;
+  margin: 0;
+  padding: .75rem 1.5rem;
+}
+
+.box {
+ 	padding: 5px;
+}
+
+#get-quote {
+ 	background-color: #fab350;
+  color: #fff;
+ 	border-radius: .375rem;
+ 	width: 100%;
+ 	line-height: 1.5rem;
+ 	cursor: pointer;
+ 	font-size: 1rem;
+ 	font-weight: bold;
+ 	padding: .75rem;
+ 	border: 0;
+ 	margin-top: 20px;
+}

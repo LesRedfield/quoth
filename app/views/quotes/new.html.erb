@@ -9,7 +9,7 @@
 <% if @price %>
   <div id="price-container">
     <div id="price">
-      <%= @quote.name %>'s policy is estimated at $<%= @price %>.
+      <%= @quote.name %>'s policy is estimated at $<%= @price %>
     </div>
   </div>
 <% end %>
@@ -56,8 +56,6 @@
             <div class="box">
               <%= check_box_tag 'conditions[]', condition.id %>
               <%= condition.name %>
-            </div>
-            <div class="box-label">
             </div>
           <% end %>
         </div>
