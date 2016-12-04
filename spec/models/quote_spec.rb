@@ -1,6 +1,10 @@
 require 'rails_helper'
 
 RSpec.describe Quote, type: :model do
+  before(:all) do
+    Rails.application.load_seed
+  end
+
   it "has a valid factory" do
     expect(build(:quote)).to be_valid
   end
