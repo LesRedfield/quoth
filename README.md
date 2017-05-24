@@ -2,7 +2,7 @@
 
 ## Life Insurance Pricing Estimator
 
-Simple MVP to give life insurance quotes, based on the following sample costs:
+Simple MVP Rails application to give life insurance quotes, based on the following sample costs:
 
 * The base cost of insurance is $100 annually.
 * For every 5 years over the age of 18 years old, the base price increases by $20.
