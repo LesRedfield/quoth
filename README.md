@@ -1,10 +1,24 @@
-#TICKLE
+# Quoth
 
-##Life Insurance Pricing Estimator
+## Life Insurance Pricing Estimator
 
-Simple MVP to give life insurance quotes.
+Simple MVP to give life insurance quotes, based on the following costs:
 
-###Install and Run
+* The base cost of insurance is $100 annually.
+* For every 5 years over the age of 18 years old, the base price increases by $20.
+* If a person lives on the East Coast of America, the cost is 5% lower.
+* Certain health conditions increase the cost of insurance:
+
+Condition | Relative cost increase
+Allergies | 1%
+Sleep Apnea | 6%
+Heart Disease | 17%
+High Cholesterol | 8%
+Asthma | 4%
+
+* Females have a longer life expectancy, so receive a $12 discount on the final price.
+
+### Install and Run
 
 To run the app:
 
@@ -19,9 +33,9 @@ To run the tests:
 rspec
 ```
 
-###Design Decisions
+### Design Decisions
 
-* I chose to extract pricing variables (like conditions and states) into rails
+* I chose to extract pricing variables (like conditions and states) into Rails
 models so that they could easily be added to and made more complicated in the
 future.
 
@@ -41,7 +55,7 @@ I wrote a small sampling of tests. The following tests could also be added:
 
 * More robust validation tests (ranges, error messages, etc)
 
-The following changes could also be made if TICKLE is successful:
+The following changes could also be made:
 
 * A customer model that stores personal information separate from the Quote model
 
