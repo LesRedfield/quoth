@@ -2,20 +2,17 @@
 
 ## Life Insurance Pricing Estimator
 
-Simple MVP to give life insurance quotes, based on the following costs:
+Simple MVP to give life insurance quotes, based on the following sample costs:
 
 * The base cost of insurance is $100 annually.
 * For every 5 years over the age of 18 years old, the base price increases by $20.
 * If a person lives on the East Coast of America, the cost is 5% lower.
 * Certain health conditions increase the cost of insurance:
-
-Condition | Relative cost increase
-Allergies | 1%
-Sleep Apnea | 6%
-Heart Disease | 17%
-High Cholesterol | 8%
-Asthma | 4%
-
+  - Allergies | 1%
+  - Sleep Apnea | 6%
+  - Heart Disease | 17%
+  - High Cholesterol | 8%
+  - Asthma | 4%
 * Females have a longer life expectancy, so receive a $12 discount on the final price.
 
 ### Install and Run
